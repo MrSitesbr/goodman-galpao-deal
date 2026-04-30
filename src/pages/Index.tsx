@@ -89,36 +89,37 @@ const Index = () => {
       </header>
 
       {/* HERO */}
-      <section className="relative bg-gradient-hero text-primary overflow-hidden">
-        <img src={heroImg} alt="Galpão logístico em Praia Grande SP na marginal da expressa sul" className="absolute inset-0 w-full h-full object-cover opacity-25" width={1920} height={1080} />
-        <div className="absolute inset-0 bg-gradient-to-r from-foreground via-foreground/80 to-transparent" />
+      <section className="relative bg-background overflow-hidden border-b-4 border-foreground">
+        <img src={brazPhoneImg} alt="Corretor Braz Mota atendendo no WhatsApp dentro de galpão em Praia Grande SP" className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
         <div className="relative container mx-auto max-w-6xl px-4 py-20 md:py-32">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 font-black text-xs md:text-sm uppercase mb-6 border-2 border-primary shadow-bold-yellow">
+            <div className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 font-black text-xs md:text-sm uppercase mb-6 border-2 border-foreground shadow-bold">
               <Star className="w-4 h-4 fill-current" /> Melhor Chamar o Braz!
             </div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black leading-[0.95] mb-6 uppercase">
-              Galpão para Alugar em <span className="text-primary">Praia Grande SP</span> — Marginal Sul, Av. Kennedy e Zona Industrial
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black leading-[0.95] mb-6 uppercase text-foreground">
+              Galpão para Alugar em <span className="bg-primary text-primary-foreground px-2 inline-block">Praia Grande SP</span> — Marginal Sul, Av. Kennedy e Zona Industrial
             </h1>
-            <p className="text-lg md:text-xl text-primary/90 mb-8 leading-relaxed max-w-2xl">
-              Você precisa de um <strong>galpão logístico, industrial ou ponto comercial em Praia Grande</strong>? Na continuação da Rodovia dos Imigrantes, na Marginal da Piaçaguera ou na Avenida Kennedy? Eu, <strong>corretor Braz</strong>, resolvo pra você. Rápido, sem enrolação e com os melhores contratos da Baixada Santista.
+            <p className="text-lg md:text-xl text-foreground/80 mb-8 leading-relaxed max-w-2xl font-medium">
+              Você precisa de um <strong>galpão logístico, industrial ou ponto comercial em Praia Grande</strong>? Na continuação da Rodovia dos Imigrantes, na Marginal da Piaçaguera ou na Avenida Kennedy? Eu, <strong>corretor Braz Mota</strong>, resolvo pra você. Rápido, sem enrolação e com os melhores contratos da Baixada Santista.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <CTAWhats size="lg" message={`${mensagemPadrao} Tenho interesse em galpões na Marginal/Av. Kennedy.`} className="animate-pulse-urgent">
                 QUERO FALAR COM O BRAZ AGORA
               </CTAWhats>
-              <a href={`tel:+55${BRAZ.whatsappNumero}`} className="inline-flex items-center gap-3 bg-primary text-primary-foreground font-black uppercase px-8 py-6 border-2 border-primary shadow-bold hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-smooth">
+              <a href={`tel:+5513996700802`} className="inline-flex items-center gap-3 bg-foreground text-primary font-black uppercase px-8 py-6 border-2 border-foreground shadow-bold hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-smooth">
                 <Phone className="w-5 h-5" /> {BRAZ.telefone}
               </a>
             </div>
-            <div className="flex flex-wrap gap-6 text-sm text-primary/80">
+            <div className="flex flex-wrap gap-6 text-sm text-foreground/80 font-semibold">
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-primary" /> Resposta em 5 minutos</div>
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-primary" /> {BRAZ.creci}</div>
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-primary" /> +10 anos na Baixada Santista</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-primary" /> Compra • Venda • Aluga • Permuta</div>
             </div>
           </div>
         </div>
-        <div className="tape h-4 w-full" aria-hidden />
+        <div className="tape h-4 w-full relative" aria-hidden />
       </section>
 
       {/* BENEFÍCIOS RÁPIDOS */}
