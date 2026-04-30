@@ -446,16 +446,22 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="font-black text-primary text-xl uppercase mb-2">Galpão em Praia Grande</div>
-              <p className="text-sm">Especialistas em locação e venda de galpões logísticos, industriais e pontos comerciais em Praia Grande SP e Baixada Santista.</p>
+              <p className="text-sm mb-3">Especialistas em locação, venda, compra e permuta de galpões logísticos, industriais, pontos comerciais, terrenos, casas, apartamentos e sítios em Praia Grande SP e Baixada Santista.</p>
+              <p className="text-xs">Compra • Venda • Aluga • Permuta</p>
             </div>
             <div>
-              <div className="font-black text-primary uppercase mb-2">Corretor Braz</div>
+              <div className="font-black text-primary uppercase mb-2">Braz Mota — Corretor</div>
               <p className="text-sm">{BRAZ.creci}</p>
-              <p className="text-sm">WhatsApp: {BRAZ.telefone}</p>
+              <p className="text-sm flex items-center gap-2 mt-1"><MessageCircle className="w-3 h-3" /> WhatsApp: {BRAZ.telefone}</p>
+              <p className="text-sm flex items-center gap-2"><Phone className="w-3 h-3" /> Fixo: {BRAZ.telefoneFixo}</p>
+              <p className="text-sm flex items-center gap-2"><Mail className="w-3 h-3" /> {BRAZ.email}</p>
+              <p className="text-sm flex items-center gap-2"><Instagram className="w-3 h-3" /> {BRAZ.instagram}</p>
+              <p className="text-sm flex items-center gap-2"><Globe className="w-3 h-3" /> {BRAZ.site}</p>
+              <p className="text-sm flex items-start gap-2 mt-1"><MapPin className="w-3 h-3 mt-1 shrink-0" /> {BRAZ.endereco}</p>
             </div>
             <div>
               <div className="font-black text-primary uppercase mb-2">Regiões Atendidas</div>
-              <p className="text-sm">Marginal Expressa Sul • Av. Kennedy • Rodovia dos Imigrantes • Zonas Industriais • Boqueirão • Tupi • Vila Sônia • Toda Praia Grande</p>
+              <p className="text-sm">Marginal Expressa Sul • Av. Kennedy • Rodovia dos Imigrantes • Zonas Industriais • Boqueirão • Tupi • Vila Sônia • Guilhermina • Toda Praia Grande e Baixada Santista</p>
             </div>
           </div>
           <div className="border-t border-primary/30 pt-6 text-xs text-center">
