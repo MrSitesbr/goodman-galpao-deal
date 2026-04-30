@@ -455,7 +455,7 @@ const Index = () => {
               <p className="text-sm flex items-center gap-2"><Phone className="w-3 h-3" /> Fixo: {BRAZ.telefoneFixo}</p>
               <p className="text-sm flex items-center gap-2"><Mail className="w-3 h-3" /> {BRAZ.email}</p>
               <p className="text-sm flex items-center gap-2"><Instagram className="w-3 h-3" /> {BRAZ.instagram}</p>
-              <p className="text-sm flex items-center gap-2"><Globe className="w-3 h-3" /> {BRAZ.site}</p>
+              
               <p className="text-sm flex items-start gap-2 mt-1"><MapPin className="w-3 h-3 mt-1 shrink-0" /> {BRAZ.endereco}</p>
             </div>
             <div>
