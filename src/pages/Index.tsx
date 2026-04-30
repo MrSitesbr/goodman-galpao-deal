@@ -1,7 +1,7 @@
-import { MessageCircle, Phone, CheckCircle2, MapPin, Warehouse, Factory, Store, Truck, Clock, Shield, Zap, TrendingUp, Star, AlertTriangle, Mail, Instagram, Globe } from "lucide-react";
+import { MessageCircle, Phone, CircleCheck as CheckCircle2, MapPin, Warehouse, Factory, Store, Truck, Clock, Shield, Zap, TrendingUp, Star, TriangleAlert as AlertTriangle, Mail, Instagram, Globe } from "lucide-react";
 import heroImg from "@/assets/hero-galpao.jpg";
 import brazImg from "@/assets/corretor-braz.jpg";
-import brazPhoneImg from "@/assets/corretor-braz-phone.jpg";
+import brazPhoneImg from "@/assets/ligue-para-corretor-bras-especialista-em-galpoes-comerciais-em-praia-grande.png";
 import internoImg from "@/assets/galpao-interno.jpg";
 import marginalImg from "@/assets/regiao-marginal.jpg";
 
