@@ -430,7 +430,7 @@ const Index = () => {
           </div>
           <div className="relative">
             <div className="bg-foreground p-2 border-4 border-foreground shadow-bold rotate-2">
-              <img src={brazImg} alt="Corretor Braz, especialista em galpões Praia Grande, disponível no WhatsApp" className="w-full" loading="lazy" width={1024} height={1280} />
+              <img src={brazPhoneImg} alt="Corretor Braz Mota ao telefone, atendendo cliente de galpão em Praia Grande" className="w-full" loading="lazy" width={1024} height={1280} />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-destructive text-destructive-foreground px-6 py-3 font-black uppercase border-2 border-foreground shadow-bold rotate-[-4deg] text-lg animate-pulse-urgent">
               Online Agora!
