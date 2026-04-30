@@ -13,8 +13,7 @@ const BRAZ = {
   telefoneFixo: "(13) 3302-8191",
   whatsappNumero: "5513996700802",
   email: "braz@vendebens.com.br",
-  instagram: "@vendebens",
-  site: "vendebens.com.br",
+  instagram: "@brazmota",
   endereco: "Rua Honduras, 855 - 5º Andar - Guilhermina, Praia Grande/SP",
 };
 
@@ -90,7 +89,7 @@ const Index = () => {
 
       {/* HERO */}
       <section className="relative bg-background overflow-hidden border-b-4 border-foreground">
-        <img src={brazPhoneImg} alt="Corretor Braz Mota atendendo no WhatsApp dentro de galpão em Praia Grande SP" className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
+        <img src={heroImg} alt="Galpão logístico em Praia Grande SP na marginal da expressa sul" className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/20" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
         <div className="relative container mx-auto max-w-6xl px-4 py-20 md:py-32">
