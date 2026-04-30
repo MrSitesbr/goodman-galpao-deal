@@ -1,15 +1,21 @@
-import { MessageCircle, Phone, CheckCircle2, MapPin, Warehouse, Factory, Store, Truck, Clock, Shield, Zap, TrendingUp, Star, AlertTriangle } from "lucide-react";
+import { MessageCircle, Phone, CheckCircle2, MapPin, Warehouse, Factory, Store, Truck, Clock, Shield, Zap, TrendingUp, Star, AlertTriangle, Mail, Instagram, Globe } from "lucide-react";
 import heroImg from "@/assets/hero-galpao.jpg";
 import brazImg from "@/assets/corretor-braz.jpg";
+import brazPhoneImg from "@/assets/corretor-braz-phone.jpg";
 import internoImg from "@/assets/galpao-interno.jpg";
 import marginalImg from "@/assets/regiao-marginal.jpg";
 
-// CONFIGURE AQUI — DADOS DO CORRETOR BRAZ
+// DADOS DO CORRETOR BRAZ MOTA
 const BRAZ = {
-  nome: "Braz",
-  creci: "CRECI-SP 000.000-F", // Substituir pelo CRECI real
-  telefone: "13 99999-9999",   // Substituir pelo telefone real
-  whatsappNumero: "5513999999999", // DDI+DDD+número, sem símbolos
+  nome: "Braz Mota",
+  creci: "CRECI 214.943",
+  telefone: "(13) 99670-0802",
+  telefoneFixo: "(13) 3302-8191",
+  whatsappNumero: "5513996700802",
+  email: "braz@vendebens.com.br",
+  instagram: "@vendebens",
+  site: "vendebens.com.br",
+  endereco: "Rua Honduras, 855 - 5º Andar - Guilhermina, Praia Grande/SP",
 };
 
 const waLink = (msg: string) =>
